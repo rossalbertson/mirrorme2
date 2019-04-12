@@ -1,5 +1,5 @@
-name: mirrorme
-version: 0.3.0
+name: mirrorme2
+version: 0.0.1
 author: Joris Hermans <hermansj@gmail.com>
 description: A mirrors helper library; adjusted for Dart 2 by Ross Albertson
 homepage: https://github.com/rossalbertson/mirrorme

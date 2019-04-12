@@ -1,6 +1,6 @@
 //import 'package:unittest/unittest.dart';
 import 'package:test/test.dart';
-import 'package:mirrorme/mirrorme.dart';
+import 'package:mirrorme2/mirrorme2.dart';
 import 'dart:mirrors';
 
 main() {  
