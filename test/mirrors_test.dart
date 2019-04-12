@@ -1,4 +1,5 @@
-import 'package:unittest/unittest.dart';
+//import 'package:unittest/unittest.dart';
+import 'package:test/test.dart';
 import 'package:mirrorme/mirrorme.dart';
 import 'dart:mirrors';
 
@@ -21,7 +22,8 @@ main() {
   });
   
   Scanner<Classes> classesHelper = new Scanner<Classes>();
-  List<Anno> classes = classesHelper.scan();
+  //List<Anno> classes = classesHelper.scan();
+  List classes = classesHelper.scan();
   
   test('scan classes tests for mirror helper api', () {
     expect(mirrorModels.length, 2);
